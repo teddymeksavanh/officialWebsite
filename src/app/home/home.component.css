@@ -1,0 +1,44 @@
+.tm-container {
+    height: 100vh;
+}
+
+.tm-sidenav-content {
+    height: 100%;
+    background-image: url("../../assets/home.jpg");
+    background-size: cover;
+}
+
+.tm-sidenav {
+    background-color: red;
+    padding: 20px;
+    width: 100%;
+}
+
+.tm-sidenav-content-fixed {
+    border-right: 1px solid rgba(0, 0, 0, .05);
+    width: 60px;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.tm-sidenav-open {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    cursor: pointer;
+}
+
+.tm-sidenav-open-close {
+    background-color: white;
+}
+
+.tm-sidenav-logo {
+    top: 0;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);;
+}

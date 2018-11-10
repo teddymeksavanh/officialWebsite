@@ -1,0 +1,24 @@
+<mat-drawer-container class="tm-container" autosize>
+  <!-- SIDENAV -->
+  <mat-drawer #drawer class="tm-sidenav" mode="side">
+    <span class="tm-sidenav-open tm-sidenav-open-close vertical" (click)="drawer.toggle()">
+        <mat-icon>close</mat-icon>
+    </span>
+  </mat-drawer>
+
+  <!-- CONTENT -->
+  <div class="tm-sidenav-content">
+    <div class="tm-sidenav-content-fixed">
+        <!-- LOGO -->
+        <span class="tm-sidenav-logo tm-sidenav-open vertical" (click)="drawer.toggle()">
+            <mat-icon class="white">dashboard</mat-icon>
+        </span>
+
+        <!-- MENU TOGGLE -->
+        <span class="tm-sidenav-open vertical" (click)="drawer.toggle()">
+            <mat-icon class="white">menu</mat-icon>
+        </span>
+    </div>
+  </div>
+
+</mat-drawer-container>
