@@ -4,8 +4,9 @@
 
 .tm-sidenav-content {
     height: 100%;
-    background-image: url("../../assets/home.jpg");
+    /* background-image: url("../../assets/home.jpg"); */
     background-size: cover;
+    padding-left: 60px;
 }
 
 .tm-sidenav {
@@ -40,5 +41,50 @@
 
 .tm-sidenav-logo {
     top: 0;
-    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
 }
+
+mat-grid-tile {
+    justify-content: left;
+    /* background: lightblue; */
+}
+
+.tm-intro  ::ng-deep figure {
+    justify-content: left;
+    padding-left: 65px;
+    /* color: white; */
+}
+
+.tm-name {
+    background: linear-gradient(to left, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 65px;
+    letter-spacing: 2px;
+}
+
+.tm-title {
+    color: #292929;
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.tm-title-from {
+    font-size: 25px;
+    color: #292929;
+    font-family: 'Roboto Slab', serif;
+}
+
+.tm-subtitle {
+    color: black;
+}
+
+.tm-hr {
+    width: 20px;
+    margin-inline-start: 0;
+    border-color: #ced4da;
+    margin-top: 18px;
+    border-width: 0.7px;
+    margin-bottom: 10px;
+} 
